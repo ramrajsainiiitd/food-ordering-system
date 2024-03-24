@@ -1,0 +1,183 @@
+body{
+    display: flex;
+    background-color: black;
+}
+h3{
+    text-align: center;
+}
+ol{
+    margin-left: 10px;
+}
+li{
+    line-height: 20px;
+    font-size: 12px;
+}
+#leftsidebar{
+overflow-y: scroll;
+width: 401px;
+height: 1117px;
+gap: 0px;
+opacity: 0px;
+background-color: #0C0E10;
+color: white;
+top: 0;
+bottom: 0;
+overflow-y: scroll;
+}
+#leftSidebar>img{
+width: 298px;
+height: 298px;
+top: 32px;
+left: 33px;
+gap: 0px;
+opacity: 0px;
+}
+#main_scroll_bar{
+background-color: #111315;
+display: flex;
+flex-direction: column;
+color: white;
+gap: 10px;
+margin-left: 10px;
+padding-left: 10px;
+overflow-y: scroll;
+}
+#search_bar_container{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #191D20;
+}
+#main_scroll_bar>h2{
+    margin-left: 30px;
+}
+#Search_bar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 812px;
+    height: 46px;
+    top: 20px;
+    left: 426px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #272A30;
+    padding-top: 20px 0 17px 25px;
+    border-radius: 5px;
+}
+
+#Search_bar>div{
+display: flex;
+flex-direction: column;
+align-items: end;
+width: 24px;
+height: 24px;
+top: 30px;
+left: 439px;
+gap: 0px;
+opacity: 0px;
+
+}
+#Search_img1{
+width: 16px;
+height: 16px;
+top: 3px;
+left: 3px;
+gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+padding-right: 5px;
+padding-left: 5px;
+}
+#Search_img2{
+align-items: center;
+width: 4.35px;
+height: 4.35px;
+top: 16.65px;
+left: 16.65px;
+gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+
+}
+#Search_bar>p{
+color: #878787;
+align-items: center;
+text-align: center;
+width: 141px;
+height: 24px;
+top: 31px;
+left: 478px;
+gap: 0px;
+opacity: 0px;
+
+}
+#login{
+display: flex;
+width: 176px;
+height: 46px;
+top: 20px;
+left: 1261px;
+gap: 0px;
+opacity: 0px;
+background-color: #FF2424;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+
+
+}
+#signup{
+display: flex;
+width: 176px;
+height: 46px;
+top: 19px;
+left: 1460px;
+gap: 0px;
+opacity: 0px;
+background-color: #FF2424;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+#profile_img{
+width: 58px;
+height: 58px;
+top: 13px;
+left: 1652px;
+gap: 0px;
+opacity: 0px;
+
+}
+.burger_product_main{
+    display: flex;
+    gap: 10px;
+}
+.burger_product{
+    background-color: #191D20;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.burger_product>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+#plus_image{
+width: 31.57px;
+height: 31.57px;
+top: 905.69px;
+left: 763.86px;
+border-radius: 5px;
+border: 1px solid black;
+
+}
